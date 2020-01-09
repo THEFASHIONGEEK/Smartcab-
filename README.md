@@ -71,6 +71,6 @@ Example:
 
 6.airport to dwarka sector 21 at 12 PM
 
-2) city.csv: Contains 4 locations and mappings
+2)city.csv: Contains 4 locations and mappings
 
-3) orig_df.csv: Contains correct pickup, drop fetched from sms.txt
+3)orig_df.csv: Contains correct pickup, drop fetched from sms.txt
