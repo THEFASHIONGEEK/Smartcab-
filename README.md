@@ -29,17 +29,17 @@ Company also wanted to allow users to book a cab by sending a free text SMS cont
 
 ●Time to pick up
 
-Process Flow/Overall solution:
+##Process Flow/Overall solution:
 
 Solve Open AI Gym environment “Taxi v2” using Q learning algorithm to learn a task of pickup, drop passengers and then evaluate the learned environment on the given data:
 
 sms.txt:This file contains 1000 text messages containing information of pickup location, drop location, and time of pickupTask to be solved:
 
-Train:
+###Train:
 
 1.Train a model using Q learning algorithm on tax v2 environment.
 
-Evaluation:
+###Evaluation:
 
 1.Take text from "sms.txt" and fetch pickup and drop from it.
 
@@ -53,7 +53,7 @@ Evaluation:
 
 6.Calculate the Total reward, penalties, Wrong pickup/drop predicted and Average time steps per episode.
 
-Dataset Description
+##Dataset Description
 
 1)sms.txt: Contains 1000 texts in natural language containing pickup, drop, and time information
 
